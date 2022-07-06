@@ -1,0 +1,54 @@
+.button {
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  display: inline-block;
+  padding: .3em .5em;
+  border-radius: 8px;
+  font-size: 1.3em;
+}
+
+.red-button {
+  margin-top: 2.5em;
+  border: 2px solid darkred;
+  background-color: red;
+}
+
+.button:hover {
+  background-color: crimson;
+}
+
+.form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.form-name {
+  font-size: 1.2em;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.form-button {
+  margin-top: .5em;
+  background-color: red;
+  border: 2px solid darkred;
+  font-size: 1em;
+}
+
+.form-button-div {
+  text-align: center;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.navigation-link:hover {
+  color: slategray;
+}

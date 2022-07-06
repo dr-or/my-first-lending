@@ -1,0 +1,57 @@
+.reviews {
+  background-color: lavenderblush;
+  padding-bottom: 2em;
+}
+
+.review {
+  padding: 1em 0;
+}
+
+.review-text {
+  font-size: 1.2em;
+  padding: .3em .5em;
+  margin-left: .8em;
+  display: inline-block;
+  max-width: 260px;
+}
+
+.review-text .text {
+  font-size: 1em;
+}
+
+.photograph {
+  float: left;
+  display: inline-block;
+}
+
+.photo {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 3px solid goldenrod;
+}
+
+.reviews:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 950px) {
+  .review-text {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  .photograph {
+    float: none;
+    display: block;
+  }
+
+  .photo {
+    margin: 0 auto;
+    display: block;
+  }
+}

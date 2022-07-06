@@ -1,0 +1,7 @@
+.header {
+  background-image: url("images/andromeda-header.jpg");
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}

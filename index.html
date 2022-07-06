@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Андромеда: Космос</title>
+  <link rel="stylesheet" href="stylesheets/header.css">
+  <link rel="stylesheet" href="stylesheets/grid.css">
+  <link rel="stylesheet" href="stylesheets/text.css">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/intro.css">
+  <link rel="stylesheet" href="stylesheets/links_and_forms.css">
+  <link rel="stylesheet" href="stylesheets/review.css">
+</head>
+<body>
+<header class="header">
+  <p class="main-title">А Н Д Р О М Е Д А</p>
+  <div class="navigation">
+    <ul class="navigation-bar">
+      <li class="column-1-5 navigation-text"><a class="navigation-link" href="#intro">О нас</a></li>
+      <li class="column-1-5 navigation-text"><a class="navigation-link" href="#service">Услуги</a></li>
+      <li class="column-1-5 navigation-text"><a class="navigation-link" href="#review">Отзывы</a></li>
+      <li class="column-1-5 navigation-text"><a class="navigation-link" href="#application">Заказать звонок</a></li>
+      <li class="column-1-5 navigation-text last-item"><a class="navigation-link" href="#contacts">Контакты</a></li>
+    </ul>
+  </div>
+</header>
+<div class="intro" id="intro">
+  <div class="container">
+    <p class="text-lead">Мы - Андромеда.</p>
+    <p class="text-lead">Вот уже несколько лет мы помогаем нашим клиентам осуществить их главную мечту - космическое путешествие.</p>
+    <p class="text-lead">Хотели бы побывать там?</p>
+    <p class="text-lead">Тогда мы к Вашим услугам.</p>
+    <a class="button red-button" href="#application">Оставить заявку</a>
+  </div>
+</div>
+<div class="section-2" id="service">
+  <div class="container">
+    <div class="title">Какие услуги мы предоставляем</div>
+    <div class="part">
+      <img class="picture left-picture" src="images/spaceship.jpg" alt="spaceship">
+      <span class="text">На одном из наших современных космических шаттлов поднимем Вас на любую высоту, с которой Вы можете
+        полюбоваться красотами Земли.</span>
+    </div>
+    <div class="part">
+      <img class="picture left-picture" src="images/astronaut.jpg" alt="astronaut">
+      <span class="text">Поможем безопасно выйти в открытый космос, где Вы сможете в полной мере испытать гармонию вечного
+      пространства.</span>
+    </div>
+    <div class="part">
+      <img class="picture left-picture" src="images/iss.jpeg" alt="International Space Station">
+      <span class="text">Мы предоставляем уникальную возможность посетить Международную космическую станцию. В январе 2031
+      она отправится в свой последний путь на дно Тихого океана, но с нами Вы успеете увидеть её изнутри в космосе. </span>
+    </div>
+  </div>
+</div>
+<div class="section-3" id="review">
+  <div class="container">
+    <div class="title">Что о нас говорят</div>
+    <div class="reviews">
+      <div class="review column-1-2">
+        <div class="photograph">
+          <img class="photo" src="images/innokenty.jpg" alt="Innokenty">
+        </div>
+        <div class="review-text">
+          <h3 class="title-name">Иннокентий</h3>
+          <p class="text">До сих пор не могу поверить в это: я был в космосе! Ехуу! Только Андромеда! Они сделают
+            все на высшем уровне.</p>
+        </div>
+      </div>
+      <div class="review column-1-2">
+        <div class="photograph">
+          <img class="photo" src="images/elena.jpg" alt="Elena">
+        </div>
+        <div class="review-text">
+          <h3 class="title-name">Елена</h3>
+          <p class="text">Вот это да! Супер! Это было великолепно. Рекомендую, не пожалеете.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-4" id="application">
+  <div class="title">Забронируйте себе место в поездке Вашей мечты</div>
+  <form class="form" action="#action">
+    <p class="form-string">
+      <label class="form-name" for="fname">Имя:</label>
+      <input class="field" type="text" name="text" id="fname" value=""><br>
+    </p>
+    <p class="form-string">
+    <label class="form-name" for="lname">Фамилия:</label>
+    <input class="field" type="text" name="text" id="lname" value=""><br>
+    </p>
+    <p class="form-string">
+    <label class="form-name" for="number">Телефон:</label>
+    <input class="field" type="text" name="text" id="number" value=""><br>
+    </p>
+    <p class="form-string">
+    <label class="form-name" for="email">e-mail:</label>
+    <input class="field" type="text" name="text" id="email" value=""><br>
+    </p>
+    <div class="form-button-div">
+      <input class="button form-button" type="submit" value="Отправить">
+    </div>
+  </form>
+  <div class="text">До полета к Вашей мечте осталось совсем чуть-чуть.<br> Мы обязательно с Вами свяжемся!</div>
+</div>
+<footer class="footer" id="contacts">
+  <div class="container">
+    <div class="title">
+      Наши контакты
+    </div>
+    <div class="contacts">
+      <p class="text">Адрес нашего офиса: г. Байконур, ул. Ю.Гагарина, 7 </p>
+      <p class="text">Телефон: +7-999-954-78-85</p>
+      <p class="text">e-mail: andro@meda.org</p>
+    </div>
+  </div>
+</footer>
+</body>
